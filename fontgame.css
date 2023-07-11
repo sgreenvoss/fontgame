@@ -1,0 +1,44 @@
+body {
+  overflow-x: hidden; /* Hide scrollbars */
+}
+
+.tile{
+  opacity: 0;
+  margin: 0;
+  font-size: 5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background: White;
+  border: 2px solid black;
+  text-align: center;
+}
+
+#correct_counter {
+  position: absolute;
+  color: black;
+  font-weight: bold;
+  font-family: "Times New Roman";
+  font-size: 3em;
+  text-align: center;
+  width: 100%;
+  top: 15%;
+  color: green;
+  cursor: pointer;
+
+}
+
+#incorrect_counter {
+  position: absolute;
+  color: black;
+  font-weight: bold;
+  font-family: "Times New Roman";
+  font-size: 3em;
+  text-align: center;
+  width: 100%;
+  bottom: 15%;
+  color: red;
+  cursor: pointer;
+}
